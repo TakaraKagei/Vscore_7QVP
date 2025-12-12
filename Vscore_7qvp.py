@@ -151,7 +151,7 @@ for n in range(len(chain_id_lines)):
 
 #33333333333333333333333--------------------------------------------------------
 #計算に入る
-#先にDm(Distance in Monosome)を算出する
+#先にDm(Distance within Monosome)を算出する
 #AとBの両方でDmを求め、ふたつの値を平均した行列をNN, NC, CN, CCの4種類作成する
 
 #AにおけるDmの算出
@@ -230,7 +230,7 @@ df_Dm_CC = pd.DataFrame(Dm_CC, index=['C'] * len(chainID_A), columns=['C'] * len
 
 
 #444444444444444444444444--------------------------------------------------------
-#次にDc(Distance in Complex)を算出する
+#次にDc(Distance within Complex)を算出する
 #NA_NB, NA_CB, CA_NB, CA_CBの4種類
 
 Dc_NA_NB = np.zeros((len(chainID_A), len(chainID_B)))
