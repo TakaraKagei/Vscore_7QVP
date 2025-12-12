@@ -54,7 +54,7 @@ for x in range(len(chain_name)):
 #空の辞書に要素を追加していく
 #collidingとleadingは区別してchain IDを格納
 
-#まずはcollidingとleadingをA, Bとして区別して、chainIDをそれぞれリストに格納
+#まずはleadingをA, CollidingをBとして区別して、chainIDをそれぞれリストに格納
 chainID_A = []
 chainID_B = []
 
