@@ -52,9 +52,9 @@ for x in range(len(chain_name)):
 #Entity IDとchain IDを対応付する(Key:Value = Entity ID:chain ID)
 #Entity IDは9~84まで
 #空の辞書に要素を追加していく
-#trailingとleadingは区別してchain IDを格納
+#collidingとleadingは区別してchain IDを格納
 
-#まずはtrailingとleadingをA, Bとして区別して、chainIDをそれぞれリストに格納
+#まずはcollidingとleadingをA, Bとして区別して、chainIDをそれぞれリストに格納
 chainID_A = []
 chainID_B = []
 
